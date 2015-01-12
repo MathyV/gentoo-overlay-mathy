@@ -8,7 +8,7 @@ inherit git-2 autotools multilib
 
 EGIT_REPO_URI="git://github.com/opdenkamp/xbmc-pvr-addons.git"
 
-DESCRIPTION="XBMC PVR addons"
+DESCRIPTION="Kodi PVR addons"
 HOMEPAGE="https://github.com/opdenkamp/xbmc-pvr-addons"
 SRC_URI=""
 
@@ -17,7 +17,8 @@ LICENSE="GPL-2"
 SLOT="0"
 IUSE=""
 
-DEPEND=""
+DEPEND="media-tv/kodi
+	!media-plugins/xbmc-addon-pvr"
 RDEPEND="${DEPEND}"
 
 S=${WORKDIR}/${PN}
@@ -28,8 +29,8 @@ src_prepare() {
 
 src_configure() {
 	econf --prefix=/usr \
-		--libdir=/usr/share/xbmc/addons \
-		--datadir=/usr/share/xbmc/addons
+		--libdir=/usr/share/kodi/addons \
+		--datadir=/usr/share/kodi/addons
 }
 
 src_install() {
