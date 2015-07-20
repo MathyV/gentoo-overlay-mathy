@@ -1,4 +1,4 @@
-gentoo-overlays-media
+gentoo-overlays-mathy
 =====================
 
-Media stuff like XBMC beta
+Stuff I use that isn't in portage
