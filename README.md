@@ -7,4 +7,4 @@ Stuff I use that isn't in portage because of reasons:
 * openerp
 * blender
 * worklog-assistant
-
+* Enlightenment
