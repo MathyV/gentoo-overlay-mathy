@@ -8,3 +8,4 @@ Stuff I use that isn't in portage because of reasons:
 * blender
 * worklog-assistant
 * Enlightenment
+* adb and fastboot
