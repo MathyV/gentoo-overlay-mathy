@@ -7,7 +7,7 @@ inherit eutils
 DESCRIPTION="Hassle-free time tracking for JIRA self-hosted and OnDemand"
 HOMEPAGE="https://worklogassistant.com"
 
-SUFFIX="rdae0"
+SUFFIX="r48b1"
 
 SRC_URI="
 	amd64? ( https://storage.googleapis.com/worklog-assistant-downloads/WorklogAssistant-${PV}-${SUFFIX}_x86_64.tgz )
