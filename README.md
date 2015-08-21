@@ -9,3 +9,4 @@ Stuff I use that isn't in portage because of reasons:
 * worklog-assistant
 * Enlightenment
 * adb and fastboot
+* Gtk2::AppIndicator
