@@ -60,6 +60,7 @@ S=${WORKDIR}/${MY_P}
 
 src_prepare() {
 	epatch "${FILESDIR}"/quickstart.diff
+	epatch "${FILESDIR}"/systray-missing-icons.diff
 	enlightenment_src_prepare
 }
 

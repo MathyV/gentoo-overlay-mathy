@@ -1,0 +1,11 @@
+--- enlightenment-0.19.8/src/modules/systray/e_mod_notifier_host.c.orig	2015-08-21 14:19:10.107197098 +0200
++++ enlightenment-0.19.8/src/modules/systray/e_mod_notifier_host.c	2015-08-21 14:19:22.215212333 +0200
+@@ -80,7 +80,7 @@
+         for (theme = themes; *theme; theme++)
+           {
+              struct stat st;
+-             unsigned int *i, sizes[] = { 24, 32, 48, 64, 128, 256, 0 };
++             unsigned int *i, sizes[] = { 16, 22, 24, 32, 36, 40, 48, 64, 72, 96, 128, 192, 256, 512, 0 };
+ 
+              snprintf(buf, sizeof(buf), "%s/%s", path, *theme);
+              if (stat(buf, &st)) continue;
